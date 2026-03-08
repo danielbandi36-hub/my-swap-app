@@ -49,7 +49,7 @@ curl -fsSL https://bun.sh/install | bash
 bun i
 
 # Start development server
-bun run dev
+yarn devbun run dev
 ```
 
 ## Resources

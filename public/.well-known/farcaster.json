@@ -1,0 +1,18 @@
+
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjI2MTAzOTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgyYWYwMTU0Zjg5RTcxNjNGZWRlNDhBYjNhODJkN0NGNUU4NGRFNjY4In0",
+    "payload": "eyJkb21haW4iOiJteS1zd2FwLWFwcC16ZXRhLnZlcmNlbC5hcHAifQ",
+    "signature": "udLnPkqIS4bOt21xTiLzSJvCFXe3/j7pgI3OMkkL4ngyO+9cnygynoj0bxhuVRYWkOoETOYFcJ0OfXXF7zYo7Bw="
+  },
+  "frame": {
+    "version": "1",
+    "name": "My Swap App",
+    "iconUrl": "https://my-swap-app-zeta.vercel.app/icon.png",
+    "homeUrl": "https://my-swap-app-zeta.vercel.app",
+    "imageUrl": "https://my-swap-app-zeta.vercel.app/icon.png",
+    "buttonTitle": "Open App",
+    "splashImageUrl": "https://my-swap-app-zeta.vercel.app/icon.png",
+    "splashBackgroundColor": "#ffffff"
+  }
+}
