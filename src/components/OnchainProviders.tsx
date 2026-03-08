@@ -18,7 +18,13 @@ function OnchainProviders({ children }: Props) {
   return (
     <WagmiProvider config={wagmiConfig}>
       <QueryClientProvider client={queryClient}>
-        <OnchainKitProvider apiKey={NEXT_PUBLIC_CDP_API_KEY} chain={base}>
+        <OnchainKitProvider 
+          apiKey={NEXT_PUBLIC_CDP_API_KEY} 
+          chain={base}
+          config={{
+            paymaster: '0x4Da936b17bd6Ad71625E10e063996E7bBdB1b'
+          }}
+        >
           <RainbowKitProvider modalSize="compact">
             {children}
           </RainbowKitProvider>

@@ -5,11 +5,23 @@
   </picture>
 </p>
 
-# Onchain App Template
+# Token Swap App
 
-An Onchain App Template built with [OnchainKit](https://onchainkit.xyz), ready for deployment on Vercel.
+A modern token swap application built with [OnchainKit](https://onchainkit.xyz) for the Base network. Supports swapping between ETH, USDC, and USDT with a clean, dark-themed interface optimized for Farcaster mini-apps.
 
-Demo: https://onchain-app-template.vercel.app
+## Features
+
+- 🔄 **Token Swapping**: Swap between ETH, USDC, and USDT on Base network
+- 🎨 **Modern UI**: Clean dark theme with gradient accents
+- 📱 **Farcaster Compatible**: Optimized for Farcaster mini-apps
+- ⚡ **Fast**: Built with Next.js 14 and optimized for performance
+- 🔒 **Secure**: Uses OnchainKit's audited transaction handling
+
+## Fee Configuration
+
+This app uses OnchainKit's Swap component which handles fee collection automatically. Fee configuration (recipient and percentage) should be set up through your Coinbase Developer Platform account settings, not in the application code.
+
+For custom fee configurations, you may need to implement a custom swap solution using direct DEX integrations.
 
 ## Quick Start
 

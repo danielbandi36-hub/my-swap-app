@@ -18,7 +18,10 @@
   },
   "dependencies": {
     "@coinbase/onchainkit": "^0.35.6",
-    "@rainbow-me/rainbowkit": "^2.2.10",
+    "@rainbow-me/rainbowkit": "^2.1.7",
+    "@uniswap/sdk-core": "^7.12.1",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "@uniswap/v3-sdk": "^3.29.1",
     "next": "^14.2.5",
     "permissionless": "^0.1.26",
     "react": "^18",

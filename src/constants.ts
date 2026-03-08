@@ -15,3 +15,6 @@ export const mintABI = [
     type: 'function',
   },
 ] as const;
+
+// Swap Router
+export const SWAP_ROUTER_ADDRESS = '0x2626664c2603336E57B271c5C0b26F421741e4815' as const;
