@@ -252,9 +252,8 @@ export default function Swap({ address }: { address: Address }) {
         <TransactionButton
           className="mt-0 mr-auto ml-auto w-[450px] max-w-full text-[white] bg-blue-600 hover:bg-blue-700"
           disabled={!fromAmount || !toAmount}
-        >
-          Swap Tokens
-        </TransactionButton>
+          text="Swap Tokens"
+        />
         <TransactionStatus>
           <TransactionStatusLabel />
           <TransactionStatusAction />
